@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hadiya Aamer | AI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">HA</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__circle hero__circle--1"></div>
+      <div class="hero__circle hero__circle--2"></div>
+      <div class="hero__circle hero__circle--3"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__greeting">Hello, I'm</p>
+      <h1 class="hero__name">Hadiya Aamer</h1>
+      <p class="hero__role">
+        <span class="typed" id="typed"></span>
+      </p>
+      <p class="hero__tagline">AI student at FAST NUCES · Building thoughtful software experiences</p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://linkedin.com/in/hadiya-aamer-7a531a384/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://github.com/hadiyaaamer22" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="mailto:hadiyaaaamer@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Who I Am</span>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__visual">
+          <div class="about__avatar">
+            <div class="about__avatar-inner">
+              <span>HA</span>
+            </div>
+            <div class="about__avatar-ring"></div>
+          </div>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num">3</span>
+              <span class="stat__label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">2</span>
+              <span class="stat__label">Languages</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">2029</span>
+              <span class="stat__label">Graduation</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="about__bio">
+            I'm an Artificial Intelligence student at <strong>FAST National University of Computer and Emerging Sciences</strong>, Chiniot-Faisalabad Campus, currently in my second semester. I'm passionate about building software that is both functional and thoughtfully designed.
+          </p>
+          <p class="about__bio">
+            From responsive web applications to C++ game engines, I enjoy working across the stack — combining technical depth with clean user experiences. I'm always looking to learn, contribute, and grow.
+          </p>
+          <div class="about__details">
+            <div class="about__detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <span>Bachelor of Artificial Intelligence · Semester 2/8</span>
+            </div>
+            <div class="about__detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z"/><path d="M15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+              <span>Lahore, Pakistan</span>
+            </div>
+            <div class="about__detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Coursework: Web, OOP, PF, ICT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">What I Know</span>
+        <h2 class="section__title">Technical Skills</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Languages</h3>
+          <div class="skill-card__tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Web & Desktop</h3>
+          <div class="skill-card__tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-1V4c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v13c0 1.1.9 2 2 2h1v1c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7 9H4v-2h9v2zm0-4H4V9h9v2zm0-4H4V5h9v2zm7 10H6v-1h11c1.1 0 2-.9 2-2V8h1v11z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Tools & Databases</h3>
+          <div class="skill-card__tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-4h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Languages Spoken</h3>
+          <div class="skill-card__tags">
+            <span class="tag">English (Fluent)</span>
+            <span class="tag">Urdu (Native)</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">What I've Built</span>
+        <h2 class="section__title">Projects</h2>
+      </div>
+      <div class="projects__grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon">🍨</div>
+            <div class="project-card__type">Group Project · Web</div>
+          </div>
+          <h3 class="project-card__title">Sherbet Holmes</h3>
+          <p class="project-card__subtitle">Dessert Shop Website</p>
+          <p class="project-card__desc">
+            A responsive front-end website for an online dessert shop featuring a product catalog, customer reviews, ordering workflow, shopping cart, and image carousel — built with pure HTML5, CSS3, and JavaScript.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Responsive multi-page layout with product catalog</li>
+            <li>Interactive shopping cart & image carousel</li>
+            <li>Accessibility-focused UI with consistent design system</li>
+          </ul>
+          <div class="project-card__tech">
+            <span class="tag tag--sm">HTML5</span>
+            <span class="tag tag--sm">CSS3</span>
+            <span class="tag tag--sm">JavaScript</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon">🧠</div>
+            <div class="project-card__type">Group Project · C++</div>
+          </div>
+          <h3 class="project-card__title">Smart Quiz Game</h3>
+          <p class="project-card__subtitle">Console-Based Quiz System</p>
+          <p class="project-card__desc">
+            A feature-rich console quiz application with multiple categories, three difficulty levels, timed gameplay, lifelines, and a file-based persistence layer for scores, logs, and question management.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Multiple categories, difficulty levels & randomized questions</li>
+            <li>Lifelines: 50/50, Skip, Replace, Extra Time</li>
+            <li>File-based high-score tracking & quiz logging</li>
+          </ul>
+          <div class="project-card__tech">
+            <span class="tag tag--sm">C++</span>
+            <span class="tag tag--sm">File Handling</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card project-card--featured">
+          <div class="project-card__header">
+            <div class="project-card__icon">♟️</div>
+            <div class="project-card__type">Group Project · OOP + Graphics</div>
+          </div>
+          <h3 class="project-card__title">Chess Game</h3>
+          <p class="project-card__subtitle">Interactive Desktop Application</p>
+          <p class="project-card__desc">
+            A fully functional chess engine with graphical rendering via SFML, complete move validation, check/checkmate detection, pawn promotion, and a clean object-oriented architecture using abstract classes and polymorphism.
+          </p>
+          <ul class="project-card__highlights">
+            <li>Full chess rules: check, checkmate, pawn promotion</li>
+            <li>Abstract classes, inheritance & runtime polymorphism</li>
+            <li>SFML GUI with move highlighting & texture caching</li>
+          </ul>
+          <div class="project-card__tech">
+            <span class="tag tag--sm">C++</span>
+            <span class="tag tag--sm">SFML</span>
+            <span class="tag tag--sm">OOP</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Let's Connect</span>
+        <h2 class="section__title">Get In Touch</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="contact__text">
+            I'm always open to new opportunities, collaborations, or just a good conversation about tech. Feel free to reach out through any of the channels below.
+          </p>
+          <div class="contact__links">
+            <a href="mailto:hadiyaaaamer@gmail.com" class="contact__link">
+              <div class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+              </div>
+              <div>
+                <span class="contact__link-label">Email</span>
+                <span class="contact__link-value">hadiyaaaamer@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/hadiya-aamer-7a531a384/" target="_blank" rel="noopener" class="contact__link">
+              <div class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div>
+                <span class="contact__link-label">LinkedIn</span>
+                <span class="contact__link-value">hadiya-aamer-7a531a384</span>
+              </div>
+            </a>
+            <a href="https://github.com/hadiyaaamer22" target="_blank" rel="noopener" class="contact__link">
+              <div class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </div>
+              <div>
+                <span class="contact__link-label">GitHub</span>
+                <span class="contact__link-value">hadiyaaamer22</span>
+              </div>
+            </a>
+            <div class="contact__link contact__link--static">
+              <div class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z"/><path d="M15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+              </div>
+              <div>
+                <span class="contact__link-label">Location</span>
+                <span class="contact__link-value">Lahore, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Hadiya Aamer · Designed & Built with ♥</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
